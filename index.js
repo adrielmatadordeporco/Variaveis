@@ -21,9 +21,10 @@ console.log (`olá novamente, como disse me chamo ${nomeCompleto}, agora tenho $
 console.log("");
 
 //agência de viagens
-console.log("---------------------");
-console.log("        LOGIN        ");
-console.log("---------------------");
+
+console.log("‼️                      ‼️");
+console.log("    🔒   LOGIN   🔒      ");
+console.log("‼️                      ‼️");
 
 const loginCerto = "Adriel";
 const senhaCerta = 12345;
@@ -32,13 +33,18 @@ var login = entrada("Digite o seu login: ");
 var senha = entrada("Digite sua senha: ");
 
 while(login != loginCerto) {
-  console.log("Login não encontrado");
+  console.log("Login não encontrado❗️");
   login = entrada("Digite novamente seu login: ");
 }
 while(senha != senhaCerta) {
-  console.log("Senha incorreta");
+  console.log("Senha incorreta ❌");
   senha = entrada("Digite a senha novamente: ");
 }
+
+console.log(" ");
+console.log("🗿                            🗿");
+console.log(`    🔓   bem vindo ${loginCerto}    🔓 `);
+console.log("🗿                            🗿");
 
 var nomeComprador = entrada("qual o seu nome? ");
 var CPFComprador = entrada("qual o seu CPF? ");
